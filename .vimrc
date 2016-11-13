@@ -35,12 +35,17 @@ autocmd Filetype gitcommit set textwidth=72
 :inoremap <C-K> <C-R>=SelectPrevAutoComplete()<CR>
 :inoremap <C-J> <C-R>=SelectNextAutoComplete()<CR>
 :inoremap <Tab> <C-R>=TabOrComplete()<CR><C-R>=TabOrCompleteWithSingleMatch()<CR>
+"Mapped meta-j,k,h,l to be arrow keys in insert mode
+:inoremap ˙ <Left>
+:inoremap ¬ <Right>
+:inoremap ˚ <Up>
+:inoremap ∆ <Down>
 :map <Space> <Plug>(easymotion-s)
 :map e <Plug>(easymotion-bd-jk)
 :map ; <Plug>(easymotion-repeat)
 :map \ <Plug>(easymotion-prefix)
-:map [[ ?{<CR>w99[{:noh<CR>zt
-:map ]] j0[[%/{<CR>:noh<CR>zt
+:map [[ ?{<CR>w99[{:noh<CR>:call AlignToFunction()<CR>zt
+:map ]] j0[[%/{<CR>:noh<CR>:call AlignToFunction()<CR>zt
 "∆ (meta-j) makes line down, ˚ (meta-k) makes line up
 :noremap ∆ o<Esc>
 :noremap ˚ O<Esc>
@@ -65,9 +70,6 @@ autocmd Filetype gitcommit set textwidth=72
 :vnoremap // y/<C-R>"<CR>
 :vnoremap <C-N> :normal 
 :set runtimepath+=/full/path/to/plugin/directory/
-:inoreabbrev javamain public static void main(String[] args)
-:inoreabbrev javaprint System.out.println(
-:inoreabbrev javafor for (int i = 0; i < list.size(); i++){ }k
 :inoreabbrev {} {<CR> <BS><CR>}<Up><End>
 ":call AddToGit() adds current file that's open in VIM to git repository
 ":call CreateDirectory() creates the directory for folder of newly established 

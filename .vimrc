@@ -44,8 +44,8 @@ autocmd Filetype gitcommit set textwidth=72
 :map e <Plug>(easymotion-bd-jk)
 :map ; <Plug>(easymotion-repeat)
 :map \ <Plug>(easymotion-prefix)
-:map [[ ?{<CR>w99[{:noh<CR>:call AlignToFunction()<CR>zt
-:map ]] j0[[%/{<CR>:noh<CR>:call AlignToFunction()<CR>zt
+:map [[ ?{<CR>w99[{:call AlignToFunction()<CR>:noh<CR>zt
+:map ]] j0[[/{<CR>%/{<CR>:call AlignToFunction()<CR>:noh<CR>zt
 "∆ (meta-j) makes line down, ˚ (meta-k) makes line up
 :noremap ∆ o<Esc>
 :noremap ˚ O<Esc>

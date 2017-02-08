@@ -67,6 +67,7 @@ autocmd Filetype gitcommit set textwidth=72
 :noremap Ω :set nonumber<CR>:set norelativenumber<CR>
 :noremap ≈ :set number<CR>:set relativenumber<CR>
 :noremap <Home> :tabnew<CR>
+:noremap <S-Home> :vspli<CR>
 :vnoremap // y/<C-R>"<CR>
 :vnoremap <C-N> :normal 
 :set runtimepath+=/full/path/to/plugin/directory/

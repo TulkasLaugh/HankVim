@@ -10,3 +10,5 @@ My personal VIM settings I intend to make portable and be able to update and syn
 4.) Good ergonomics is everything
 
 Good resource on changing your CAPSLOCK to be more useful for VIM. 
+
+http://www.economyofeffort.com/2014/08/11/beyond-ctrl-remap-make-that-caps-lock-key-useful/

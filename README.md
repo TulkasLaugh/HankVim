@@ -8,3 +8,5 @@ My personal VIM settings I intend to make portable and be able to update and syn
 2.) Alternatives that allow you to stay in the homerow will always be preferred
 3.) Make sure Caps-Lock is mapped to be Esc when tapped and Ctrl when held
 4.) Good ergonomics is everything
+
+Good resource on changing your CAPSLOCK to be more useful for VIM. 

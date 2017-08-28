@@ -12,3 +12,8 @@ My personal VIM settings I intend to make portable and be able to update and syn
 Good resource on changing your CAPSLOCK to be more useful for VIM. 
 
 http://www.economyofeffort.com/2014/08/11/beyond-ctrl-remap-make-that-caps-lock-key-useful/
+
+
+Useful resource on how to use vim for merge conflicts in git (replace vimdiff with gvimdiff if using GVIM):
+
+http://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/

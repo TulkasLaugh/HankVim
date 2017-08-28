@@ -17,3 +17,6 @@ http://www.economyofeffort.com/2014/08/11/beyond-ctrl-remap-make-that-caps-lock-
 Useful resource on how to use vim for merge conflicts in git (replace vimdiff with gvimdiff if using GVIM):
 
 http://www.rosipov.com/blog/use-vimdiff-as-git-mergetool/
+
+Note: Might have to modify gvim path if on Windows (replace which mvimdiff with path of your gvim.exe)
+(git config --global difftool.gvimdiff.path `which mvimdiff`; git config --global mergetool.gvimdiff.path `which mvimdiff`)

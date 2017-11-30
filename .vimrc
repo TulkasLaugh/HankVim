@@ -70,6 +70,7 @@ autocmd Filetype gitcommit set textwidth=72
 :noremap <S-Home> :vspli<CR>
 :vnoremap // y/<C-R>"<CR>
 :vnoremap <C-N> :normal 
+:vnoremap <C-K> :call FocusRange()<CR>:<BS>
 :set runtimepath+=/full/path/to/plugin/directory/
 :inoreabbrev {} {<CR> <BS><CR>}<Up><End>
 ":call AddToGit() adds current file that's open in VIM to git repository

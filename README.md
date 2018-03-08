@@ -13,6 +13,9 @@ Good resource on changing your CAPSLOCK to be more useful for VIM.
 
 http://www.economyofeffort.com/2014/08/11/beyond-ctrl-remap-make-that-caps-lock-key-useful/
 
+Remapping Caps Lock on Windows using this tool:
+
+https://github.com/randyrants/sharpkeys
 
 Useful resource on how to use vim for merge conflicts in git (replace vimdiff with gvimdiff if using GVIM):
 
